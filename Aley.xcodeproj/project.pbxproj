@@ -3,27 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		C97A8088239916A700E9606B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97A8087239916A700E9606B /* AppDelegate.swift */; };
-		C97A808A239916A700E9606B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97A8089239916A700E9606B /* SceneDelegate.swift */; };
-		C97A808C239916A700E9606B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97A808B239916A700E9606B /* ViewController.swift */; };
+		C97A808C239916A700E9606B /* SigninVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97A808B239916A700E9606B /* SigninVC.swift */; };
 		C97A808F239916A700E9606B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C97A808D239916A700E9606B /* Main.storyboard */; };
 		C97A8091239916AE00E9606B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C97A8090239916AE00E9606B /* Assets.xcassets */; };
 		C97A8094239916AE00E9606B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C97A8092239916AE00E9606B /* LaunchScreen.storyboard */; };
+		C97A80A22399424400E9606B /* touch.png in Resources */ = {isa = PBXBuildFile; fileRef = C97A80A12399424400E9606B /* touch.png */; };
+		FA9163A1005D9C80F7D0AF12 /* Pods_Aley.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D066B0FB353604621CCEE6 /* Pods_Aley.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		56D066B0FB353604621CCEE6 /* Pods_Aley.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aley.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7113F486EF1FF05A8A8E1EA4 /* Pods-Aley.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aley.release.xcconfig"; path = "Target Support Files/Pods-Aley/Pods-Aley.release.xcconfig"; sourceTree = "<group>"; };
+		B44041B3508D4C30E1AC7C1C /* Pods-Aley.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aley.debug.xcconfig"; path = "Target Support Files/Pods-Aley/Pods-Aley.debug.xcconfig"; sourceTree = "<group>"; };
+		C94139312399AD49001B8B2D /* droid_kufi_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = droid_kufi_bold.ttf; sourceTree = SOURCE_ROOT; };
+		C94139322399AD49001B8B2D /* droid_kufi_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = droid_kufi_regular.ttf; sourceTree = SOURCE_ROOT; };
 		C97A8084239916A700E9606B /* Aley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aley.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C97A8087239916A700E9606B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C97A8089239916A700E9606B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C97A808B239916A700E9606B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C97A808B239916A700E9606B /* SigninVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninVC.swift; sourceTree = "<group>"; };
 		C97A808E239916A700E9606B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C97A8090239916AE00E9606B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C97A8093239916AE00E9606B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C97A8095239916AE00E9606B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C97A80A12399424400E9606B /* touch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = touch.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA9163A1005D9C80F7D0AF12 /* Pods_Aley.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				C97A8086239916A700E9606B /* Aley */,
 				C97A8085239916A700E9606B /* Products */,
+				F50EC7B6FAF58F061C29A6F2 /* Pods */,
+				F430FD221A09E82ACE956EF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +65,58 @@
 		C97A8086239916A700E9606B /* Aley */ = {
 			isa = PBXGroup;
 			children = (
+				C97A80A52399763300E9606B /* Model */,
+				C97A80A42399762B00E9606B /* View */,
+				C97A80A32399761E00E9606B /* Controller */,
 				C97A8087239916A700E9606B /* AppDelegate.swift */,
-				C97A8089239916A700E9606B /* SceneDelegate.swift */,
-				C97A808B239916A700E9606B /* ViewController.swift */,
 				C97A808D239916A700E9606B /* Main.storyboard */,
 				C97A8090239916AE00E9606B /* Assets.xcassets */,
 				C97A8092239916AE00E9606B /* LaunchScreen.storyboard */,
 				C97A8095239916AE00E9606B /* Info.plist */,
+				C94139312399AD49001B8B2D /* droid_kufi_bold.ttf */,
+				C94139322399AD49001B8B2D /* droid_kufi_regular.ttf */,
 			);
 			path = Aley;
+			sourceTree = "<group>";
+		};
+		C97A80A32399761E00E9606B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C97A808B239916A700E9606B /* SigninVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C97A80A42399762B00E9606B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C97A80A52399763300E9606B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F430FD221A09E82ACE956EF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C97A80A12399424400E9606B /* touch.png */,
+				56D066B0FB353604621CCEE6 /* Pods_Aley.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F50EC7B6FAF58F061C29A6F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B44041B3508D4C30E1AC7C1C /* Pods-Aley.debug.xcconfig */,
+				7113F486EF1FF05A8A8E1EA4 /* Pods-Aley.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C97A8098239916AE00E9606B /* Build configuration list for PBXNativeTarget "Aley" */;
 			buildPhases = (
+				F014F0E8EB75DBF47F77907E /* [CP] Check Pods Manifest.lock */,
 				C97A8080239916A700E9606B /* Sources */,
 				C97A8081239916A700E9606B /* Frameworks */,
 				C97A8082239916A700E9606B /* Resources */,
+				E051247FA1C55F9993407102 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,19 +182,61 @@
 				C97A8094239916AE00E9606B /* LaunchScreen.storyboard in Resources */,
 				C97A8091239916AE00E9606B /* Assets.xcassets in Resources */,
 				C97A808F239916A700E9606B /* Main.storyboard in Resources */,
+				C97A80A22399424400E9606B /* touch.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E051247FA1C55F9993407102 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aley/Pods-Aley-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aley/Pods-Aley-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Aley/Pods-Aley-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F014F0E8EB75DBF47F77907E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aley-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C97A8080239916A700E9606B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C97A808C239916A700E9606B /* ViewController.swift in Sources */,
+				C97A808C239916A700E9606B /* SigninVC.swift in Sources */,
 				C97A8088239916A700E9606B /* AppDelegate.swift in Sources */,
-				C97A808A239916A700E9606B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +378,13 @@
 		};
 		C97A8099239916AE00E9606B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B44041B3508D4C30E1AC7C1C /* Pods-Aley.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5ZLVWU5ZH5;
 				INFOPLIST_FILE = Aley/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,17 +392,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zeyad.Aley;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C97A809A239916AE00E9606B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7113F486EF1FF05A8A8E1EA4 /* Pods-Aley.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5ZLVWU5ZH5;
 				INFOPLIST_FILE = Aley/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +412,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zeyad.Aley;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

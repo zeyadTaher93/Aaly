@@ -1,0 +1,6 @@
+framework module Pods_Aley {
+  umbrella header "Pods-Aley-umbrella.h"
+
+  export *
+  module * { export * }
+}
