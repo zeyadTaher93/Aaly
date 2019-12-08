@@ -5,12 +5,14 @@ PODS:
   - NVActivityIndicatorView (4.8.0):
     - NVActivityIndicatorView/Presenter (= 4.8.0)
   - NVActivityIndicatorView/Presenter (4.8.0)
+  - RAMAnimatedTabBarController (5.1.0)
 
 DEPENDENCIES:
   - BEMCheckBox
   - IBAnimatable
   - NewPopMenu
   - NVActivityIndicatorView
+  - RAMAnimatedTabBarController
 
 SPEC REPOS:
   trunk:
@@ -18,13 +20,15 @@ SPEC REPOS:
     - IBAnimatable
     - NewPopMenu
     - NVActivityIndicatorView
+    - RAMAnimatedTabBarController
 
 SPEC CHECKSUMS:
   BEMCheckBox: 5ba6e37ade3d3657b36caecc35c8b75c6c2b1a4e
   IBAnimatable: d49f9fee0c401b5b08d31b77256b77fb067e0e92
   NewPopMenu: c6129e08e8192f6257ceb5f9a4357e1b59c6e2e7
   NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  RAMAnimatedTabBarController: b5c821298071fded801532216ad8a24394f89859
 
-PODFILE CHECKSUM: 06a0803f78f0ecfec392c89f4d0855b0e5ccbe27
+PODFILE CHECKSUM: f395d243772b2d605247d271cd110a1f2b160181
 
 COCOAPODS: 1.8.4

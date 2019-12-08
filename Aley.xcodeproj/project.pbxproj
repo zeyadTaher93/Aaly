@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C954F90E239C1A4B004DC2E6 /* HomeNavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954F90D239C1A4B004DC2E6 /* HomeNavigationVC.swift */; };
+		C954F912239C67BE004DC2E6 /* customTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954F911239C67BE004DC2E6 /* customTabBar.swift */; };
 		C97A8088239916A700E9606B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97A8087239916A700E9606B /* AppDelegate.swift */; };
 		C97A808C239916A700E9606B /* SigninVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97A808B239916A700E9606B /* SigninVC.swift */; };
 		C97A808F239916A700E9606B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C97A808D239916A700E9606B /* Main.storyboard */; };
@@ -22,6 +24,8 @@
 		B44041B3508D4C30E1AC7C1C /* Pods-Aley.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aley.debug.xcconfig"; path = "Target Support Files/Pods-Aley/Pods-Aley.debug.xcconfig"; sourceTree = "<group>"; };
 		C94139312399AD49001B8B2D /* droid_kufi_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = droid_kufi_bold.ttf; sourceTree = SOURCE_ROOT; };
 		C94139322399AD49001B8B2D /* droid_kufi_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = droid_kufi_regular.ttf; sourceTree = SOURCE_ROOT; };
+		C954F90D239C1A4B004DC2E6 /* HomeNavigationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationVC.swift; sourceTree = "<group>"; };
+		C954F911239C67BE004DC2E6 /* customTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTabBar.swift; sourceTree = "<group>"; };
 		C97A8084239916A700E9606B /* Aley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aley.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C97A8087239916A700E9606B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C97A808B239916A700E9606B /* SigninVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninVC.swift; sourceTree = "<group>"; };
@@ -83,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				C97A808B239916A700E9606B /* SigninVC.swift */,
+				C954F90D239C1A4B004DC2E6 /* HomeNavigationVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -90,6 +95,7 @@
 		C97A80A42399762B00E9606B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C954F911239C67BE004DC2E6 /* customTabBar.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -235,6 +241,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C954F912239C67BE004DC2E6 /* customTabBar.swift in Sources */,
+				C954F90E239C1A4B004DC2E6 /* HomeNavigationVC.swift in Sources */,
 				C97A808C239916A700E9606B /* SigninVC.swift in Sources */,
 				C97A8088239916A700E9606B /* AppDelegate.swift in Sources */,
 			);

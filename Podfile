@@ -10,4 +10,5 @@ target 'Aley' do
      pod 'BEMCheckBox'
      pod 'NVActivityIndicatorView'
      pod 'NewPopMenu'
+     pod 'RAMAnimatedTabBarController'
 end
